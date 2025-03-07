@@ -87,12 +87,6 @@ button:-moz-focusring,
  * Change the border, margin, and padding in all browsers (opinionated).
  */
 
-fieldset {
-  border: 2px dashed #ddd;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
@@ -244,6 +238,12 @@ form {
   border-radius: 3em;
   box-shadow: 0 8px 12px rgba(92, 127, 183, 0.4);
   width: 100%;
+}
+
+fieldset {
+  border: 2px dashed #ddd;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
 }
 
 /* ===== STATE STYLES ======= */
