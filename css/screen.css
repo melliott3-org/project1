@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -225,9 +226,9 @@ p {
 }
 
 body {
-  background-color: #a7a7a7;
+  background-color: #0c0643;
   font-family: "Permanent Marker", "Poppins", cursive;  text-align: center;
-  color: #b0abab;
+  color: #456ffa;
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -238,10 +239,10 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #3d3838;
+  background-color: #16066c;
   padding: 2rem;
   border-radius: 3em;
-  box-shadow: 0 8px 12px rgba(21, 21, 21, 0.4);
+  box-shadow: 0 8px 12px rgba(92, 127, 183, 0.4);
   width: 100%;
 }
 
