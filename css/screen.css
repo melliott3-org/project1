@@ -246,8 +246,7 @@ fieldset {
   border: 4px dashed #ffffff; 
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
-  display: block;
-  overflow: none;
+  align-items: center;
 }
 
 img {
