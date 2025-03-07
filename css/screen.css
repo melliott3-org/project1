@@ -26,6 +26,14 @@ textarea {
   margin: 0; /* 2 */
 }
 
+button {
+  font-family: "Poppins", "Permanent Marker", cursive; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 10px; /* 2 */
+  display: inline;
+}
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
