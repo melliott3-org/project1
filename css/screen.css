@@ -246,6 +246,8 @@ fieldset {
   border: 2px dashed #ddd;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
+  display: block;
+  overflow: none;
 }
 
 img {
