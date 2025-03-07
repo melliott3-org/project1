@@ -247,6 +247,8 @@ fieldset {
 
 img {
 display: inline;
+border: groove 8px #3570fb;
+border-radius: 1em;
 }
 
 /* ===== STATE STYLES ======= */
