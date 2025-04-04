@@ -267,7 +267,7 @@ input {
   box-sizing: border-box;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   h1 {
     font-size: 2em;
   }
@@ -277,7 +277,7 @@ input {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   body {
     font-size: 1.25rem;
   }
@@ -290,5 +290,5 @@ input {
     max-width: 80%;
   }
 }
-
+=
 /* ===== STATE STYLES ======= */
