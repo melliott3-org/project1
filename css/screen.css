@@ -183,7 +183,6 @@ textarea {
 
 /* Responsive Media */
 img, audio, video {
-  display: block;
   max-width: 100%;
   min-width: 90%;
 }
@@ -208,15 +207,14 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 h1 {
-    font-size: 2em;
-    font-family: "Permanent Marker", "Poppins", cursive;  
-    text-align: center;
-    color: #99b5f9;
-    padding: 0.5em;
-    letter-spacing: 1px;
-    margin-bottom: 2em;
-    display: flex;
-    border: dotted 2px #c2c8ff;
+  font-size: 2em;
+  font-family: "Permanent Marker", "Poppins", cursive;  
+  text-align: center;
+  color: #99b5f9;
+  padding: 0.5em;
+  letter-spacing: 1px;
+  margin-bottom: 2em;
+  border: dotted 2px #c2c8ff;
 }
 
 body {
@@ -226,6 +224,7 @@ body {
   color: #456ffa;
   display: flex;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
   padding: 1rem;
 }
@@ -239,41 +238,51 @@ form {
   border-radius: 3em;
   box-shadow: 0 8px 12px rgba(92, 127, 183, 0.4);
   width: 100%;
+  max-width: 500px; /* this should prevent the form from stretching too far on bigger screens */
 }
 
 fieldset {
   border: 4px dashed #ffffff; 
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
-  align-items: center;
+  width: 100%;
 }
 
 img {
   display: inline;
+  max-width: 100%;
+  height: auto;
   border: groove 8px #3570fb;
   border-radius: 1em;
-  min-width: 90%;
-  max-width: 100%;
-  min-height: 90%;
-  max-height: 100%;
+  margin-bottom: 1rem;
 }
 
 input {
   min-width: 90%;
-}
-
-@media (min-width: 800px) {
-  img {
-    max-width: 100%;
-    min-width: 90%;
-    height: auto;
-    display: flex;
-  }
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5em;
+  border: 1px solid #99b5f9;
+  margin: 0.5em 0;
 }
 
 @media (min-width: 768px) {
   body {
-    font-size: 26px;
+    font-size: 1.25rem;
+  }
+
+  form {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  form {
+    max-width: 700px;
+  }
+
+  img {
+    max-width: 80%;
   }
 }
 
