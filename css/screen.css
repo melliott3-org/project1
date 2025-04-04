@@ -24,6 +24,7 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  min-width: 90%;
 }
 
 button {
@@ -105,6 +106,7 @@ legend {
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
+  min-width: 90% 
   max-width: 100%; /* 1 */
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
@@ -183,6 +185,7 @@ textarea {
 img, audio, video {
   display: block;
   max-width: 100%;
+  min-width: 90%;
 }
 
 /* ===== BASE STYLES ===== */
@@ -246,9 +249,32 @@ fieldset {
 }
 
 img {
-display: inline;
-border: groove 8px #3570fb;
-border-radius: 1em;
+  display: inline;
+  border: groove 8px #3570fb;
+  border-radius: 1em;
+  min-width: 90%;
+  max-width: 100%;
+  min-height: 90%;
+  max-height: 100%;
+}
+
+input {
+  min-width: 90%;
+}
+
+@media (min-width: 800px) {
+  img {
+    max-width: 100%;
+    min-width: 90%;
+    height: auto;
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 26px;
+  }
 }
 
 /* ===== STATE STYLES ======= */
